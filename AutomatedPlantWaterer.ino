@@ -51,6 +51,7 @@ void loop() {
 }
 
 int sensorRead(){
+  sensorVal = 0;
   //turn on sensor
   digitalWrite(sensorPower, HIGH);
   delay(10);
